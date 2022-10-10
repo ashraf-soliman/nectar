@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4BD98B28F421B5005D4036 /* ProductsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BD98A28F421B5005D4036 /* ProductsTableViewCell.swift */; };
+		DC4BD98D28F421EB005D4036 /* ProductsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4BD98C28F421EB005D4036 /* ProductsTableVC.swift */; };
 		DC6B3DE328ECBA26002883C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B3DE228ECBA26002883C6 /* AppDelegate.swift */; };
 		DC6B3DE528ECBA26002883C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B3DE428ECBA26002883C6 /* SceneDelegate.swift */; };
 		DC6B3DE728ECBA26002883C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B3DE628ECBA26002883C6 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC4BD98A28F421B5005D4036 /* ProductsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableViewCell.swift; sourceTree = "<group>"; };
+		DC4BD98C28F421EB005D4036 /* ProductsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableVC.swift; sourceTree = "<group>"; };
 		DC6B3DDF28ECBA26002883C6 /* nectar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nectar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC6B3DE228ECBA26002883C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DC6B3DE428ECBA26002883C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				DC6B3DE228ECBA26002883C6 /* AppDelegate.swift */,
 				DC6B3DE428ECBA26002883C6 /* SceneDelegate.swift */,
 				DC6B3DE628ECBA26002883C6 /* ViewController.swift */,
+				DC4BD98A28F421B5005D4036 /* ProductsTableViewCell.swift */,
+				DC4BD98C28F421EB005D4036 /* ProductsTableVC.swift */,
 				DC6B3DE828ECBA26002883C6 /* Main.storyboard */,
 				DC6B3DEB28ECBA27002883C6 /* Assets.xcassets */,
 				DC6B3DED28ECBA27002883C6 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC6B3DE728ECBA26002883C6 /* ViewController.swift in Sources */,
+				DC4BD98B28F421B5005D4036 /* ProductsTableViewCell.swift in Sources */,
 				DC6B3DE328ECBA26002883C6 /* AppDelegate.swift in Sources */,
 				DC6B3DE528ECBA26002883C6 /* SceneDelegate.swift in Sources */,
+				DC4BD98D28F421EB005D4036 /* ProductsTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
