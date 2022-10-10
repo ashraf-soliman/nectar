@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ProductViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class ProductTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var productsTable: UITableView!
     
@@ -18,13 +18,19 @@ class ProductViewController: UIViewController, UITableViewDataSource, UITableVie
         var price: String
     }
     let products: [Product] = [
-        Product(imageName: "CanCoke", label: "Coke Can", caption: "330 ml", price: "3.00$"),
+        Product(imageName: "CanCoke", label: "Coke Can Large Size", caption: "330000000 ml", price: "123.00$"),
         Product(imageName: "CanSprite", label: "Sprite Can", caption: "330 ml", price: "3.50$"),
-        Product(imageName: "CanJuice", label: "Juice Bottle", caption: "500 ml", price: "4.00$"),
+        Product(imageName: "CanJuice", label: "Juice Bottle", caption: "800 ml", price: "4.00$"),
         Product(imageName: "CanPepsi", label: "Pepsi Can", caption: "330 ml", price: "2.50$"),
         Product(imageName: "CanCoke", label: "Coke Can", caption: "330 ml", price: "3.00$"),
         Product(imageName: "CanSprite", label: "Sprite Can", caption: "330 ml", price: "3.50$"),
-        Product(imageName: "CanJuice", label: "Juice Bottle", caption: "500 ml", price: "4.00$"),
+        Product(imageName: "CanJuice", label: "Juice Bottle", caption: "800 ml", price: "4.00$"),
+        Product(imageName: "CanPepsi", label: "Pepsi Can", caption: "330 ml", price: "2.50$"),
+        Product(imageName: "CanJuice", label: "Juice Bottle", caption: "800 ml", price: "4.00$"),
+        Product(imageName: "CanPepsi", label: "Pepsi Can", caption: "330 ml", price: "2.50$"),
+        Product(imageName: "CanCoke", label: "Coke Can", caption: "330 ml", price: "3.00$"),
+        Product(imageName: "CanSprite", label: "Sprite Can", caption: "330 ml", price: "3.50$"),
+        Product(imageName: "CanJuice", label: "Juice Bottle", caption: "800 ml", price: "4.00$"),
         Product(imageName: "CanPepsi", label: "Pepsi Can", caption: "330 ml", price: "2.50$")
         ]
     
